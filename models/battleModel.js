@@ -196,7 +196,6 @@ class BattleModel {
                 if(err){
                     return callback(err);
                 }
-                console.log(stats);
                 callback(null, stats);
             }
         )
